@@ -10,8 +10,8 @@
     min-height: 300px;
 }
 
-.footer {
-    background-color: #D1C4E9;
+footer {
+    background-color: #02d8c4;
     margin: 0px auto;
     padding: 20px 0px;
 }
@@ -19,6 +19,20 @@
 .jumbotron {
     padding: 70px 30px;
     margin: 0px auto;
-    background-color:#9575CD ;
-    color: bluesteele;
+    background-color: #fceeef;
+    color: skyblue;
+}
+
+.links {
+    text-align: center;
+}
+
+body {
+    padding: 50px 0 0 0;
+    z-index: 0;
+
+}
+
+.navbar {
+    background-color: #02ced8;
 }
