@@ -55,18 +55,18 @@
                 <li class="breadcrumb-item active">Contact Us</li>
             </ol>
             <div class="col-12">
-               <h3>Contact Us</h3>
-               <hr>
+                <h3>Contact Us</h3>
+                <hr>
             </div>
         </div>
 
         <div class="row row-content">
-           <div class="col-12">
-              <h3>Location Information</h3>
-           </div>
+            <div class="col-12">
+                <h3>Location Information</h3>
+            </div>
             <div class="col-12 col-sm-4 offset-sm-1">
-                   <h5>Our Address</h5>
-                    <address style="font-size: 100%">
+                <h5>Our Address</h5>
+                <address style="font-size: 100%">
 		              121, Clear Water Bay Road<br>
 		              Clear Water Bay, Kowloon<br>
 		              HONG KONG<br>
@@ -80,20 +80,84 @@
                 <h5>Map of our Location</h5>
             </div>
             <div class="col-12 col-sm-11 offset-sm-1">
-                Button group goes here
+                <div class="btn-group" role="group">
+                    <a class="btn btn-primary" role="button" href="tel:+85212345678"><i class="fa fa-phone"></i>Call</a>
+                    <a class="btn btn-success" role="button" href="#"><i class="fa fa-skype"></i>Skype</a>
+                    <a class="btn btn-info" role="button" href="mailto:ahmed.shaabanali@gmail.com"><i class="fa fa-envelope"></i>Mail</a>
+                </div>
             </div>
         </div>
 
         <div class="row row-content">
-           <div class="col-12">
-              <h3>Send us your Feedback</h3>
-           </div>
+            <div class="col-12">
+                <h3>Send us your Feedback</h3>
+            </div>
             <div class="col-12 col-md-9">
-                Form goes here
+                <form>
+                    <div class="form-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Your Firstname">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="Last Name" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-md-2 col-form-label"> Contact Tel.</label>
+                        <div class="col-5 col-sm-3 col-md-2">
+                            <div class="input-group">
+                                <div class="input-group-addon">(</div>
+                                <input type="text" class="form-control" id="telnum" placeholder="Area Code " name="Telefonnumber">
+                                <div class="input-group-addon">)</div>
+                            </div>
+
+                        </div>
+                        <div class="col-7 col-sm-6 col-md-7">
+                            <input type="text" class="form-control" id="#" placeholder="Tel Number" name="Telefonnumber">
+                        </div>
+
+                    </div>
+                    <div class="form-group row">
+                        <label for="emailid" class="col-md-2 col-form-label">E-Mail</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="emailid" placeholder="E-Mail" name="email">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-8 offset-md-2">
+                            <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" value="approve">
+                                   <strong>How can I contact you?</strong>
+                                   
+                            </label>
+
+                         </div>
+                        <div class="col-md-2">
+                            <select class=" custom-select">
+                                  <option selected>Tel</option>
+                                  <option value="1">Tel.</option>
+                                  <option value="2">Mail</option>
+                                  <option value="3">Fax</option>
+                           </select>
+                        </div>
+
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Feedback</label>
+                        <div class="col-md-10">
+                            <textarea type="text" class="form-control" id="feedback"  name="feedback" row="12">
+                            </textarea>
+                        </div>
+                        </div>
+                
+
+                </form>
             </div>
-             <div class="col-12 col-md">
-            </div>
-       </div>
+        </div>
 
     </div>
 
@@ -131,12 +195,12 @@
                         <a class="btn btn-social-icon" href="mailto:"><i class="fa fa-envelope-o"></i></a>
                     </div>
                 </div>
-           </div>
-           <div class="row justify-content-center">
+            </div>
+            <div class="row justify-content-center">
                 <div class="col-auto">
                     <p>© Copyright 2015 Ristorante Con Fusion</p>
                 </div>
-           </div>
+            </div>
         </div>
     </footer>
 
